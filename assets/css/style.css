@@ -1,0 +1,48 @@
+/* ================== */
+/* Most Common Use Style */
+/* ================== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+} 
+.primary-color{
+    color:  #FD6E0A;
+}
+/* ------Button------ */
+.primary-btn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 15px 35px;
+}
+/* ================= */
+/* Nav related styles */
+/* ================ */
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+nav > ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+nav  a{
+    text-decoration: none;
+}
+nav h3{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.875rem;
+}
+
