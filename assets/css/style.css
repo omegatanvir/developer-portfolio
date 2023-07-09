@@ -60,6 +60,15 @@ nav h3{
     line-height: 1.875rem;
 }
 
+.long-content{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
 /* =============== */
 /*Banner Section Design */
 /* ================ */
@@ -102,15 +111,6 @@ nav h3{
    margin: 80px 0px;
 }
 
-.about-content{
-    color:  #757575;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 20px;
-}
-
 .aboout-continer{
     border-radius: 10px;
     background: #FFF8F3;
@@ -133,4 +133,33 @@ nav h3{
 
 .ainfo span{
     font-weight: bold;
+}
+
+/* =============== */
+/*What I Do Section Design */
+/* ================ */
+.cards{
+    display: flex;
+}
+
+.card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 33px;
+    margin: 50px 0px;
+}
+
+.card h3 {
+    color: var(--dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.card p{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
